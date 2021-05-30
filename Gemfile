@@ -13,17 +13,12 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+gem "jekyll", "~> 3.7"
 gem "minimal-mistakes-jekyll"
+gem "kramdown-parser-gfm"
 
-# The following plugins are automatically loaded by the theme-gem:
-#   gem "jekyll-paginate"
-#   gem "jekyll-sitemap"
-#   gem "jekyll-gist"
-#   gem "jekyll-feed"
-#   gem "jekyll-include-cache"
-#
+
 # If you have any other plugins, put them here!
-group :jekyll_plugins do
-end
+# group :jekyll_plugins do
+# end
 # gemspec

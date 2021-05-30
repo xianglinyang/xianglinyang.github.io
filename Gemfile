@@ -14,7 +14,8 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "jekyll", "~> 3.7"
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
+gen "xianglin-pages"
 gem "kramdown-parser-gfm"
 
 

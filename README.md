@@ -9,7 +9,7 @@ This allows for easier installation and updating as you don't have to manage any
 1. Add the following to your `Gemfile`:
 
    ```ruby
-   gem "xianglin-pages"
+   gem "minimal-mistakes-jekyll"
    ```
 
 2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
@@ -21,7 +21,7 @@ This allows for easier installation and updating as you don't have to manage any
 3. Set the `theme` in your project's Jekyll `_config.yml` file:
 
    ```yaml
-   theme: xianglin-pages
+   theme: "minimal-mistakes-jekyll"
    ```
 
 To update the theme run `bundle update`.

@@ -1,5 +1,5 @@
 # Xianglin's Homepage
-
+[Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 ### Update repo by Gem-based method
 
 With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.

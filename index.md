@@ -4,7 +4,9 @@ author_profile: true
 permalink: /index.html
 ---
 
-# About
-- I am a second year PhD student at National University of Singapore supervised by Prof. [Dong Jin Song](https://www.comp.nus.edu.sg/~dongjs/).
-- My research interests lie in visualization and model interpretabilty.
+# About  
+<font size=3/>
+I am a second year PhD student at National University of Singapore supervised by Prof. [Dong Jin Song](https://www.comp.nus.edu.sg/~dongjs/). My research interests lie in visualization and model interpretabilty.
+
+
 

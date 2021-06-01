@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Yang Xianglin"
   avatar           : "/assets/images/bio-photo.jpeg"
-  bio              : "CS PhD student@NUS"
+  bio              : "CS@NUS"
   location         : "Singapore"
   email            : "xianglin@comp.nus.edu.sg"
   links:
@@ -155,9 +155,9 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
- # - assets/js/plugins
- # - assets/js/_main.js
- # - assets/js/vendor
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
   - CHANGELOG
   - config

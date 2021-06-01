@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Yang Xianglin"
 description              : "Xianglin's page."
 url                      : "https://xianglinyang.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/~xianglin" # the subpath of your site, e.g. "/blog"
 repository               : "xianglinyang/xianglinyang.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -146,6 +146,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _docs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -154,9 +155,9 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+ # - assets/js/plugins
+ # - assets/js/_main.js
+ # - assets/js/vendor
   - Capfile
   - CHANGELOG
   - config
@@ -272,7 +273,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true

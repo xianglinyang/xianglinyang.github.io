@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yang Xianglin「杨芗琳」</title>
+  <meta name="description" content="xianglin's homepage">
+  <meta name="author" content="Yang Xianglin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Lato:300,400,700|Roboto:300,400,700" rel="stylesheet" type="text/css">
+  
+  <!-- CSS Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <!-- link rel="icon" type="image/png" href="images/favicon.png" -->
+  <script src="utl.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69465334-1"></script> -->
+  <!-- <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-69465334-1');
+  </script> -->
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header" id="header">
+      <div class="row">
+        <div class="title-container">
+          <h5 class="title" id="title">
+            <u>Yang</u> Xianglin 「<u>杨</u>芗琳」
+          </h5>
+        </div>
+        <!-- Navigation Bar Sub-pages -->
+        <div class="navbar-container">
+          <nav class="navbar" style="line-height: 3; float: right;">
+            <b>home</b> |
+            <!-- <a href="src/CV202105-ChangshengSun.pdf">Curriculum Vitae</a> -->
+            <a href="papers.html">papers</a>
+            <!-- <a href="talks.html">talks</a> | -->
+            <!-- <a href="misc.html">gallery</a> -->
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="top placeholder"></div>
+
+    <div class="row">
+      <!--div class="eleven columns"-->
+      <div id="photo" style="	
+        width: 200px;
+        height: 200px;
+        background-size: 200px;
+        float: left;
+        margin: 5px 5px 20px 40px;"> 
+        <img src="src/photo.JPG" width="135" height="187"></img>
+        <!-- width: 135px;
+        height: 187px; -->
+        <!-- background-image: url(src/photo.JPG); -->
+      </div>
+      
+      <p class="shortspan">
+        I'm now a second year PhD candidate at National University of Singapore supervised by Prof. <a href="https://www.comp.nus.edu.sg/~dongjs/"> Dong Jin Song</a> and co-supervised by Prof. <a href="http://linyun.info/"> Lin Yun</a>. My research interests lie in visualization and explainable AI.
+      </p>
+    </div>
+
+        <!-- <b>> My <a href='src/CV202105-ChangshengSun.pdf'>Curriculum Vitae</a> < </b> -->
+      
+      <!--/div-->
+    <!-- abstract button template -->
+    <span id="abs-btn-template" style="display:none;">
+      <span class="abs-btn" onclick="absButtonClick(this)">
+        <span class="abs-btn-border">[</span>
+        <span class="abs-btn-inner"><span class="abs-btn-text">abstract</span></span>
+        <span class="abs-btn-border"><span class="abs-btn-cross">+</span>]</span>
+      </span>
+    </span>
+    
+    <div class="row section" id="news">
+      <h5>RECENT NEWS 🧅</h5>
+      <div class="newslist">
+        <ul> 
+          <li><span class="date">04/2022.</span> Our paper <span class="papername">Temporality Spatialization: A Scalable and Faithful Time-Travelling Visualization for Deep Classifier Training.</span> has been accepted to <b>IJCAI 2022</b>!</li>
+          <li><span class="date">03/2022.</span> Our paper <span class="papername">Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach.</span> has been accepted to <b>USENIX 2022</b>! Congrats to Ruofan!</li>
+          <li><span class="date">02/2022.</span> Our paper <span class="papername">DeepVisualInsight: Time-Travelling Visualization for Spatio-Temporal Causality of Deep Classification Training.</span> has been accepted to <b>AAAI22</b> with oral presentation (4%)!</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row section" id="papers">
+      <!-- <div class="paperlist"> -->
+      <h5>PUBLICATIONS
+        <a href="https://scholar.google.com/citations?user=pSG3i44AAAAJ&hl=zh-CN" class="paper-link" style="font-size:1.4rem; font-weight: 500;"> [Google Scholar]</a>
+        <!-- <a href="https://dblp.org/pid/134/1902.html" class="paper-link" style="font-size:1.4rem; font-weight: 500;"> [dblp: Changsheng Sun]</a> -->
+      </h5>
+      <!-- </div> -->
+      <!-- <p class="footnote">
+        * Click the [+] button to show abstracts.
+      </p> -->
+      <!-- <div class="paperyear"> 2022 </div> -->
+    
+      <div class="paperlist">
+        <ul>
+          <!-- New Paper -------------------------------------------->
+          <li>
+            <span class="newicon">[new] </span>
+            <span class="myself">Xianglin Yang</span>, Yun Lin*, Ruofan Liu, Jin Song Dong. <br/>
+           
+            <span class="papername">Temporality Spatialization: A Scalable and Faithful Time-Travelling Visualization for Deep Classifier Training.</span> 
+            <span class="confname">IJCAI 2022 </span>, to appear.
+            <span class="paper-links-block">
+<!--               <a class="paper-link" href="https://arxiv.org/pdf/2201.01155.pdf">[paper]</a> -->
+              <a class="paper-link" href="https://github.com/xianglinyang/SingleVisualization">[code]</a>
+              <a class="paper-link" href="https://sites.google.com/view/timevis/home">[website]</a>
+          </li>
+          <li>
+            Ruofan Liu, Yun Lin, <span class="myself">Xianglin Yang</span>, Siang Hwee Ng, Dinil Mon Divakaran, Jin Song Dong. <br/>
+            <span class="papername">Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach.</span> 
+            <span class="confname">USENIX Security 2022 </span>, to appear.
+            <span class="paper-links-block">
+<!--               <a class="paper-link" href="https://arxiv.org/pdf/2201.01155.pdf">[paper]</a> -->
+              <a class="paper-link" href="https://github.com/lindsey98/PhishIntention">[code]</a>
+              <a class="paper-link" href="https://sites.google.com/view/phishintention/home">[website]</a>
+          </li>
+          <li>
+            <span class="myself">Xianglin Yang#</span>, Yun Lin#*, Ruofan Liu, Zhenfeng He, Chao Wang, Jin Song Dong, and Hong Mei. <br/>
+            <span class="papername">DeepVisualInsight: Time-Travelling Visualization for Spatio-Temporal Causality of Deep Classification Training.</span> 
+            <span class="confname">AAAI 2022. [oral presentation, 4.5%]</span>.
+            <span class="paper-links-block">
+              <a class="paper-link" href="https://arxiv.org/pdf/2201.01155.pdf">[paper]</a>
+              <a class="paper-link" href="https://recorder-v3.slideslive.com/?share=57789&s=e8f4c2ef-76e9-48be-89a0-76b2ca201a27">[video]</a>
+              <a class="paper-link" href="https://drive.google.com/file/d/1cLbqSySep5yvkeHD5pS20i1nU2xQ625m/view">[code]</a>
+              <a class="paper-link" href="https://sites.google.com/view/deepvisualinsight/home">[website]</a>
+
+              <span class="abs-btn-container"></span>
+            </span>
+            <p class="abs-text">
+              Understanding how the predictions of deep learning models are formed during the training process is crucial to improve model performance and fix model defects, especially when we need to investigate nontrivial training strategies such as active learning, and track the root cause of unexpected training results such as performance degeneration.
+
+              In this work, we propose a time-travelling visual solution DeepVisualInsight (DVI),
+              aiming to manifest the spatio-temporal causality while training a deep learning image classifier.
+              The spatio-temporal causality demonstrates how the gradient-descent algorithm and various training data sampling techniques can influence and reshape the layout of learnt input representation and the classification boundaries in consecutive epochs.
+              Such causality allows us to observe and analyze the whole learning process in the visible low dimensional space.
+              Technically, we propose four spatial and temporal properties and design our visualization solution to satisfy them.
+              These properties preserve the most important information when (inverse-)projecting input samples between the visible low-dimensional and the invisible high-dimensional space, for causal analyses.
+              Our extensive experiments show that,
+              comparing to baseline approaches,
+              we achieve the best visualization performance regarding the spatial/temporal properties and visualization efficiency.
+              Moreover, our case study shows that our visual solution can well reflect the characteristics of various training scenarios,
+              showing good potential of DVI as a debugging tool for analyzing deep learning training processes.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row section">
+      <div><h5>EDUCATION</h5></div>
+      <ul>
+        <li>
+          (Aug 2020 - ) <b>PhD candidate</b> @ NUS School of Computing<br/>
+        </li>
+        <li>
+          (Sep 2016 - Jul 2020) <b>BS</b> @ Fudan University<br/>
+        </li>
+      </ul>
+    </div> 
+
+      <!-- <div class="row section">
+        <div><h5>RESEARCH EXPERIENCES</h5></div>
+        <ul>
+          <li>
+            (Aug 2020 - ) <b>PhD candidate</b> @ NUS School of Computing<br/>
+            <a href="https://trustdnn.comp.nus.edu.sg/"><b>Evaluating the Trustworthiness of Deep Learning Systems</b></a> <br/>
+            Led by <a href="https://www.comp.nus.edu.sg/~dongjs/">Prof. DONG Jin Song</a> and funded by the Singapore National Research Foundation (NRF) under the National Satellite of Excellence on Trustworthy Software Systems (NSoE-TSS). <br/>
+            <i>This project will develop new techniques for determining the trustworthiness of DL systems, with an emphasis on uncovering and accounting for the underlying uncertainties. The new techniques will address two important problems—detect untrustworthy decisions made by deep learning models, and repair and fix the untrustworthy decisions on runtime to improve the trustworthiness of deep learning models.</i>
+          </li>
+        </ul>
+      </div>  -->
+
+    <div class="row section">
+        <div><h5>LINKS</h5></div>
+        <p>
+          <!-- <a href="https://www.linkedin.com/in/xianglin-yang-7946a1213/">LinkedIn</a> | -->
+          <a href="https://scholar.google.com/citations?user=pSG3i44AAAAJ&hl=zh-CN">Google scholar</a> |
+          <a href="https://github.com/xianglinyang">GitHub</a>
+        </p>
+    </div>
+
+    <div class="row section">
+        <div><h5>CONTACT</h5></div>
+        <p>
+          Computing 2, <br/>  
+          15 Computing Drive, 
+          National University of Singapore, <br/>
+          Singapore, 117418 <br/><br/>
+          Email: <a href="mailto:xianglin@u.nus.edu">xianglin[at]u[dot]nus[dot]edu</a>
+          <br/>
+        <!-- Mobile: See my cv.<br/>
+        Skype: Same as Outlook E-mail -->
+        </p>
+    </div>
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=100&t=n&d=wbIrZ2vYiWcwFehZ5-TSjhwabWqHCrDUTO_93juCE_4&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+    <p class="footnote">© 2022 YANG Xianglin | Powered by <a href="http://getskeleton.com/">Skeleton</a> and <a href="https://jgan.neocities.org/index.html">Jiarui Gan's template</a>  | Updated 2022-05-16 </p>
+  </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

@@ -512,47 +512,61 @@
   li {
     margin-bottom: 1.2rem; }
   
-  /* Research Interests Section
+  /* Research Interests Section - Compact Inline Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .research-interests {
-    background-color: #f8f9fa;
-    padding: 25px 30px;
-    border-radius: 8px;
-    margin: 30px 0;
-  }
-  
-  .research-interests p {
-    margin-bottom: 15px;
-    font-weight: 500;
-  }
-  
-  .research-interests ul {
-    margin: 15px 0 0 20px;
-    line-height: 1.8;
-  }
-  
-  .research-interests li {
-    margin-bottom: 15px;
-  }
-  
-  /* News Section - IMPROVED STYLING
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .news-section {
-    margin: 40px 0;
-  }
-  
-  .news-section h5 {
+  .intro-section {
+    display: flex;
     margin-bottom: 20px;
   }
   
+  .photo-column {
+    width: 225px;
+    flex-shrink: 0;
+  }
+  
+  .research-interests-inline {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-left: 0;
+    font-size: 0.95em;
+  }
+  
+  /* On mobile, stack vertically */
+  @media (max-width: 549px) {
+    .intro-section {
+      display: block;
+    }
+    
+    .photo-column {
+      display: none;
+    }
+    
+    .research-interests-inline {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  /* News Section - COMPACT STYLING
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .news-section {
+    margin: 30px 0;
+  }
+  
+  .news-section h5 {
+    margin-bottom: 15px;
+  }
+  
   .newslist {
-    max-height: 450px;
+    max-height: 300px;
     overflow-y: auto;
-    padding: 25px 30px;
+    padding: 18px 22px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   }
   
   .newslist ul{
@@ -564,10 +578,11 @@
   }
   
   .newslist li {
-    margin-bottom: 18px;
-    padding-bottom: 18px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #f0f0f0;
-    line-height: 1.6;
+    line-height: 1.55;
+    font-size: 0.95em;
   }
   
   .newslist li:last-child {

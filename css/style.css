@@ -523,7 +523,7 @@
   }
   
   .newslist {
-    max-height: 200px;
+    max-height: 150px;
     overflow-y: auto;
     padding: 18px 22px;
     background-color: #ffffff;

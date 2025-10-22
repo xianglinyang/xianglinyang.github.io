@@ -580,7 +580,16 @@
   
   .paperyear{
     margin-bottom: 1.5rem;
+    border-top: 2px solid #ddd;
   }
+
+  /* Remove border from first year section */
+  .paperyear:first-of-type {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
   
   .paperlist{
     line-height: 1.6;

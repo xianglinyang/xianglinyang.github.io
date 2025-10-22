@@ -522,6 +522,13 @@
     text-align: justify;
     hyphens: auto; 
   }
+  .news-section {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 2px solid #ff0000;
+    padding: 20px;
+    margin: 20px 0;
+  }
   
   /* Paper
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
